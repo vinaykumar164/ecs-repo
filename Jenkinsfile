@@ -1,7 +1,7 @@
 pipeline {
 agent any
 
-```
+
 environment {
     AWS_REGION = 'ap-south-2'
     ACCOUNT_ID = '633031012723'
@@ -103,6 +103,6 @@ post {
         echo 'Deployment failed!'
     }
 }
-```
+
 
 }
